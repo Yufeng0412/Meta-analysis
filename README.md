@@ -3,7 +3,7 @@ Develop meta-random-forest models to quantify the enviromental-agronomic perform
 
 # Steps
 1. Data processing (Jupiter Notebook):
- ● Create unique study ID and site ID by mapping on hash tables
+ ● Create unique study ID and site ID by mapping on hash tables \n
  ● Calculate SOC stock in different layers using BD and SOC concentration.
  ● Sum up to get the total SOC stock at each site.
  ● Fit a qaudratic curve using SOC stock data at depth >= 100 cm.
