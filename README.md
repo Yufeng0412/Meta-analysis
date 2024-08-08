@@ -3,7 +3,7 @@ Develop meta-random-forest models to quantify the enviromental-agronomic perform
 
 # Steps
 1. Data processing (Jupiter Notebook):
-2. 
+
    ● Create unique study ID and site ID by mapping on hash tables.
 
    ● Calculate SOC stock in different layers using BD and SOC concentration.
@@ -14,7 +14,7 @@ Develop meta-random-forest models to quantify the enviromental-agronomic perform
  
    ● Convert SOC at various depths to a uniformed depth, i.e. 30 cm or 60 cm using the fitted equation.
  
-3. Meta-random-forest model development (R):
+2. Meta-random-forest model development (R):
 
    ● Feature selection based on recursive elimination.
  
@@ -26,7 +26,7 @@ Develop meta-random-forest models to quantify the enviromental-agronomic perform
  
    ● Make prediction using county-level soil and weather inputs.
  
-4. Cost-benefit analysis (Jupiter Notebook):
+3. Cost-benefit analysis (Jupiter Notebook):
 
    ● Calculate on-farm costs and carbon benefits associated with SOC, N2O, N leaching, and crop yield.
  
@@ -36,4 +36,4 @@ Develop meta-random-forest models to quantify the enviromental-agronomic perform
  
    ● Compare the Prioritized incentive-mitigation curve to the pathway without priority information.
  
-5. Visualzation of results (Jupiter Notebook)
+4. Visualzation of results (Jupiter Notebook)
